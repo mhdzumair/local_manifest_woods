@@ -8,13 +8,13 @@
     <!-- SoC : MT6737m -->
 
     <!-- device tree -->
-    <project path="device/motorola/woods" name="mhdzumair/device_motorola_woods" remote="github" revision="los-14.1" />
+    <project path="device/motorola/woods" name="mhdzumair/device_motorola_woods" remote="github" revision="CrDroid-7.1" />
     <!-- kernel -->
     <project path="kernel/motorola/woods" name="mhdzumair/MhDzMR-kernel" remote="github" revision="master" />
     <!-- vendor -->
-    <project path="vendor/motorola/woods" name="mhdzumair/vendor_motorola_woods" remote="github" revision="los-14.1" />
-    <!-- devicesettings/doze -->
-    <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-15.1" />
+    <project path="vendor/motorola/woods" name="mhdzumair/vendor_motorola_woods" remote="github" revision="Crdroid-7.1" />
+
+
     <!-- toolchain -->
     <!-- <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-uber" name="iykequame/prebuilts_gcc_arm_eabi_4.9" remote="github" revision="master" /> -->
     <!-- toolchain/GNU-->
