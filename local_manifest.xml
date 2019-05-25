@@ -12,7 +12,7 @@
     <!-- kernel -->
     <project path="kernel/motorola/woods" name="mhdzumair/MhDzMR-kernel" remote="github" revision="master" />
     <!-- vendor -->
-    <project path="vendor/motorola/woods" name="mhdzumair/vendor_motorola_woods" remote="github" revision="Crdroid-7.1" />
+    <project path="vendor/motorola/woods" name="mhdzumair/vendor_motorola_woods" remote="github" revision="CrDroid-7.1" />
 
 
     <!-- toolchain -->
