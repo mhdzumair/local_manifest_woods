@@ -10,7 +10,7 @@
     <!-- device tree -->
     <project path="device/motorola/woods" name="iykequame/device_motorola_woods" remote="github" revision="cardinal-n" />
     <!-- kernel -->
-    <project path="kernel/motorola/woods" name="iykequame/kernel_motorola_woods" remote="github" revision="los-14.1" />
+    <project path="kernel/motorola/woods" name="mhdzumair/MhDzMR-kernel" remote="github" revision="master" />
     <!-- vendor -->
     <project path="vendor/motorola/woods" name="iykequame/vendor_motorola_woods" remote="github" revision="los-14.1" />
     <!-- toolchain -->
