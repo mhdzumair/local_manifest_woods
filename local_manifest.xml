@@ -8,7 +8,7 @@
     <!-- SoC : MT6737m -->
 
     <!-- device tree -->
-    <project path="device/motorola/woods" name="mhdzumair/device_motorola_woods" remote="github" revision="CrDroid-7.1" />
+    <project path="device/motorola/woods" name="mhdzumair/device_motorola_woods" remote="github" revision="DotOs-n" />
     <!-- kernel -->
     <project path="kernel/motorola/woods" name="mhdzumair/MhDzMR-kernel" remote="github" revision="master" />
     <!-- vendor -->
