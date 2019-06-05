@@ -1,4 +1,4 @@
-_CrDroid-7.1.2 for Moto E4 Device_
+_DotOs-n for Moto E4 Device_
 ------------------------------------
 
 ![Motorola Moto E4](/device/motorola-moto-e4.jpg "Motorola Moto E4")
@@ -12,7 +12,7 @@ Create directories
 the local manifests:
 ```
 	$ repo init -u https://github.com/crdroidandroid/android -b 7.1
-	$ git clone https://github.com/mhdzumair/local_manifest_woods.git -b CrDroid-7.1 .repo/local_manifests
+	$ git clone https://github.com/mhdzumair/local_manifest_woods.git -b DotOs-n .repo/local_manifests
 ```
 Then sync up with this command:
 ```
@@ -40,7 +40,8 @@ _Credits:_
 - @iykequame 
 - @CarlosArriagaCM
 - @SamarV-121 
-- @ashwinr64 
+- @ashwinr64
+- @Mohamed_Zumair
 - igor1144 
 - Decker 
 - danielhk 
