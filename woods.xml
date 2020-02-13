@@ -10,15 +10,13 @@
     <!-- device tree -->
     <project path="device/motorola/woods" name="mhdzumair/device_motorola_woods" remote="github" revision="lineage-15.1" />
     <!-- kernel -->
-    <project path="kernel/motorola/woods" name="mhdzumair/kernel_motorola_woods" remote="github" revision="lineage-15.1" />
+    <project path="kernel/motorola/woods" name="mhdzumair/MhDzMR-kernel" remote="github" revision="master" />
     <!-- vendor -->
     <project path="vendor/motorola/woods" name="mhdzumair/vendor_motorola_woods" remote="github" revision="lineage-15.1" />
     <!-- devicesettings/doze -->
     <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-15.1" />
-    <!-- toolchain -->
-    <!-- <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-uber" name="iykequame/prebuilts_gcc_arm_eabi_4.9" remote="github" revision="master" /> -->
     <!-- toolchain/GNU-->
-    <project path="prebuilts/gcc/linux-x86/arm/arm-gnu-7.x" name="iykequame/gcc-prebuilts" remote="github" revision="arm-gnu-7.x" />
+    <project path="prebuilts/gcc/linux-x86/arm/arm-gnu-7.x" name="mhdzumair/gcc-prebuilts" remote="github" revision="arm-gnu-7.x" />
     <!-- toolchain/LINARO-->
-    <project path="prebuilts/gcc/linux-x86/arm/arm-linaro-7.x" name="iykequame/gcc-prebuilts" remote="github" revision="arm-linaro-7.x" />
+    <project path="prebuilts/gcc/linux-x86/arm/arm-linaro-7.x" name="mhdzumair/gcc-prebuilts" remote="github" revision="arm-linaro-7.x" />
 </manifest>
