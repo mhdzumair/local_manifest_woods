@@ -11,15 +11,15 @@ Create directories
 ```
 the local manifests:
 ```
-	$ repo init -u git://github.com/LineageOS/android.git -b cm-14.1
-	$ git clone https://github.com/mhdzumair/local_manifest_woods -b los-14.1 .repo/local_manifests
+	# repo init -u git://github.com/LineageOS/android.git -b cm-14.1
+	# git clone https://github.com/mhdzumair/local_manifest_woods -b los-14.1 .repo/local_manifests
 ```
 Then sync up with this command:
 ```
-	$ repo sync -c -j16 --force-sync --no-clone-bundle --no-tags -q      ##( this is a silent sync )
+	# repo sync -c -j16 --force-sync --no-clone-bundle --no-tags -q      ##( this is a silent sync )
 ```
 -------------
- 
+
 _Building from source_
 ---------------
 ```
@@ -31,21 +31,21 @@ _Building from source_
 	$ brunch woods
 ```
 -------------
- 
+
 _Credits:_
 ---------------
 - @darklord4822
-- @olegsvs 
-- @MediatekAndroidDevelopers 
-- @iykequame 
+- @olegsvs
+- @MediatekAndroidDevelopers
+- @iykequame
 - @CarlosArriagaCM
-- @SamarV-121 
-- @ashwinr64 
-- igor1144 
-- Decker 
-- danielhk 
-- mdeejay 
-- Zormax 
+- @SamarV-121
+- @ashwinr64
+- igor1144
+- Decker
+- danielhk
+- mdeejay
+- Zormax
 - @Mohamed_Zumair
 - @Reblion
 - @Manjunath-yashu
