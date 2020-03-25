@@ -15,6 +15,8 @@
     <project path="vendor/motorola/woods" name="mhdzumair/proprietary_vendor_woods" remote="github" revision="los-14.1" />
     <!-- devicesettings/doze -->
     <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="cm-14.1" />
+    <!-- MAD Vendor source-->
+    <project name="MediatekAndroidDevelopers/android_vendor_mad" path="vendor/mad" remote="github" revision="n-7.1.2" />
     <!-- toolchain/LINARO-->
     <project path="prebuilts/gcc/linux-x86/arm/arm-linaro-7.5" name="mhdzumair/toolchain" remote="github" revision="master" />
 </manifest>
