@@ -12,7 +12,7 @@
     <!-- kernel -->
     <project path="kernel/motorola/woods" name="mhdzumair/MhDzMR-kernel" remote="github" revision="master" />
     <!-- vendor -->
-    <project path="vendor/motorola/woods" name="mhdzumair/proprietary_vendor_woods" remote="github" revision="los-14.1" /-->
+    <project path="vendor/motorola/woods" name="mhdzumair/proprietary_vendor_woods" remote="github" revision="los-14.1" />
     <!-- devicesettings/doze -->
     <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="cm-14.1" />
     <!-- toolchain/LINARO-->
