@@ -8,7 +8,7 @@
     <!-- SoC : MT6737m -->
 
     <!-- device tree -->
-    <project path="device/motorola/woods" name="mhdzumair/device_woods" remote="github" revision="los-14.1" />
+    <project path="device/motorola/woods" name="mhdzumair/device_woods" remote="github" revision="los14.1" />
     <!-- kernel -->
     <project path="kernel/motorola/woods" name="mhdzumair/MhDzMR-kernel" remote="github" revision="master" />
     <!-- vendor -->
@@ -16,5 +16,5 @@
     <!-- devicesettings/doze -->
     <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="cm-14.1" />
     <!-- toolchain/LINARO-->
-    <project path="prebuilts/gcc/linux-x86/arm/arm-linaro-7.5" name="mhdzumair/toolchain" remote="github" revision="arm-linaro-7.5" />
+    <project path="prebuilts/gcc/linux-x86/arm/arm-linaro-7.5" name="mhdzumair/toolchain" remote="github" revision="master" />
 </manifest>
