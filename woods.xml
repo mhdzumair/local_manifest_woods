@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    
+
     <!-- Specs -->
     <!-- ===== -->
     <!-- Device : Moto E4 -->
@@ -8,15 +8,18 @@
     <!-- SoC : MT6737m -->
 
     <!-- device tree -->
-    <project path="device/motorola/woods" name="mhdzumair/device_motorola_woods" remote="github" revision="lineage-15.1" />
+    <project path="device/motorola/woods" name="mhdzumair/device_woods" remote="github" revision="los15.1" />
     <!-- kernel -->
     <project path="kernel/motorola/woods" name="mhdzumair/MhDzMR-kernel" remote="github" revision="master" />
     <!-- vendor -->
-    <project path="vendor/motorola/woods" name="mhdzumair/vendor_motorola_woods" remote="github" revision="lineage-15.1" />
+    <project path="vendor/motorola/woods" name="mhdzumair/proprietary_vendor_woods" remote="github" revision="los-14.1" />
     <!-- devicesettings/doze -->
     <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-15.1" />
-    <!-- toolchain/GNU-->
-    <project path="prebuilts/gcc/linux-x86/arm/arm-gnu-7.x" name="mhdzumair/gcc-prebuilts" remote="github" revision="arm-gnu-7.x" />
+    <!-- MAD Vendor source-->
+    <project name="mhdzumair/android_vendor_mad" path="vendor/mad" remote="github" revision="o-8.1.0" />
     <!-- toolchain/LINARO-->
-    <project path="prebuilts/gcc/linux-x86/arm/arm-linaro-7.x" name="mhdzumair/gcc-prebuilts" remote="github" revision="arm-linaro-7.x" />
+    <project path="prebuilts/gcc/linux-x86/arm/gcc-linaro-7.5" name="mhdzumair/toolchain" remote="github" revision="master" />
+    <!-- replace recovery with TWRP -->
+    <project name="omnirom/android_bootable_recovery" path="bootable/recovery-twrp" remote="github" revision="android-7.1" />
+    <project name="LineageOS/android_external_busybox" path="external/busybox" remote="github" />
 </manifest>
