@@ -21,5 +21,4 @@
     <project path="prebuilts/gcc/linux-x86/arm/gcc-linaro-7.5" name="mhdzumair/toolchain" remote="github" revision="master" />
     <!-- replace recovery with TWRP -->
     <project name="omnirom/android_bootable_recovery" path="bootable/recovery-twrp" remote="github" revision="android-7.1" />
-    <project name="LineageOS/android_external_busybox" path="external/busybox" remote="github" />
 </manifest>
